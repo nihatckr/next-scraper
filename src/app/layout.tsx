@@ -1,87 +1,60 @@
-import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
 import './globals.css'
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-  display: 'swap',
-  preload: true,
-})
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
-  subsets: ['latin'],
-  display: 'swap',
-})
-
-export const viewport: Viewport = {
-  width: 'device-width',
-  initialScale: 1,
-  maximumScale: 5,
-  userScalable: true,
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#ffffff' },
-    { media: '(prefers-color-scheme: dark)', color: '#0a0a0a' },
-  ],
-}
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    default: 'Admin Dashboard',
+    default: 'Admin Dashboard - Next Scraper',
     template: '%s | Admin Dashboard',
   },
   description:
-    'Modern e-ticaret admin dashboard built with Next.js and shadcn/ui',
+    'Comprehensive e-commerce admin dashboard for product and inventory management',
   keywords: [
     'admin',
     'dashboard',
-    'e-ticaret',
-    'next.js',
-    'react',
-    'typescript',
+    'e-commerce',
+    'inventory',
+    'products',
+    'analytics',
   ],
-  authors: [{ name: 'Admin Dashboard' }],
-  creator: 'Admin Dashboard',
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
-  ),
+  authors: [{ name: 'Nihat Çakır', url: 'https://github.com/nihatckr' }],
+  creator: 'Nihat Çakır',
   openGraph: {
     type: 'website',
     locale: 'tr_TR',
-    title: 'Admin Dashboard',
-    description: 'Modern e-ticaret admin dashboard',
-    siteName: 'Admin Dashboard',
+    url: 'https://github.com/nihatckr/next-scraper',
+    title: 'Admin Dashboard - Next Scraper',
+    description:
+      'Comprehensive e-commerce admin dashboard for product and inventory management',
+    siteName: 'Next Scraper Admin',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Admin Dashboard - Next Scraper',
+    description:
+      'Comprehensive e-commerce admin dashboard for product and inventory management',
+    creator: '@nihatckr',
   },
   robots: {
-    index: false, // Don't index admin dashboard
+    index: false,
     follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+    },
   },
 }
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode
-}>) {
+}) {
   return (
-    <html lang="tr" className="dark" suppressHydrationWarning>
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-      </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground min-h-screen`}
-        suppressHydrationWarning
-      >
-        <div id="root" className="min-h-screen">
-          {children}
-        </div>
-      </body>
+    <html lang="tr" suppressHydrationWarning>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }

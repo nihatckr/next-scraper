@@ -1,0 +1,1421 @@
+{
+  "timestamp": "2025-08-07T18:18:25.534Z",
+  "totalProducts": 2,
+  "products": [
+    {
+      "brand": "ZARA",
+      "productId": 452696129,
+      "normalizedData": {
+        "id": 452696129,
+        "name": "RELAXED FİT PAMUKLU - KETEN PANTOLON",
+        "price": 169000,
+        "description": "%14 keten ve pamuk karışımlı kumaştan üretilmiş relaxed fit pantolon. Ayarlanabilir bağcıklı lastikli bel. Ön cepli ve biyeli arka cepli.",
+        "colors": [
+          {
+            "id": "800",
+            "name": "Siyah",
+            "hexCode": "#080A0E",
+            "price": 169000,
+            "description": "%14 keten ve pamuk karışımlı kumaştan üretilmiş relaxed fit pantolon. Ayarlanabilir bağcıklı lastikli bel. Ön cepli ve biyeli arka cepli.",
+            "images": [
+              {
+                "url": "https://static.zara.net/assets/public/f98e/2d94/ac404ae1b9d7/12f0f03fbaaa/01437450800-p/01437450800-p.jpg?ts=1739793436771&w={width}",
+                "type": "image",
+                "kind": "full",
+                "order": 1
+              },
+              {
+                "url": "https://static.zara.net/assets/public/1ff1/7ba7/1ffc4530ab05/fe49e8fe37cf/01437450800-a1/01437450800-a1.jpg?ts=1739793435717&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 2
+              },
+              {
+                "url": "https://static.zara.net/assets/public/c4fb/834c/e1394c0a8fb0/5a6947037224/01437450800-a2/01437450800-a2.jpg?ts=1739793436557&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 3
+              },
+              {
+                "url": "https://static.zara.net/assets/public/b0fe/4a9e/0c3846309e95/110523b8793e/01437450800-a3/01437450800-a3.jpg?ts=1739793436702&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 4
+              },
+              {
+                "url": "https://static.zara.net/assets/public/c9c7/abdb/d9844e278a1f/32febf789a0f/01437450800-000-a4/01437450800-000-a4.jpg?ts=1747147620357&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 5
+              },
+              {
+                "url": "https://static.zara.net/assets/public/fde9/4375/5d0e4694a401/89846d14bef6/01437450800-a5/01437450800-a5.jpg?ts=1739793437400&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 6
+              },
+              {
+                "url": "https://static.zara.net/assets/public/8690/6e4e/9c2844388de4/af6fed5d0a12/01437450800-e1/01437450800-e1.jpg?ts=1735818573447&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 7
+              },
+              {
+                "url": "https://static.zara.net/assets/public/0676/7de4/76cb4869a99e/756ca75e65cf/01437450800-e2/01437450800-e2.jpg?ts=1735818572063&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 8
+              },
+              {
+                "url": "https://static.zara.net/assets/public/2a35/a452/a8cf4021b402/271fa42dfe86/01437450800-e3/01437450800-e3.jpg?ts=1735818571630&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 9
+              },
+              {
+                "url": "https://static.zara.net/assets/public/8059/7118/d64147a1a2dd/82441b9f8826/01437450800-e4/01437450800-e4.jpg?ts=1735818573149&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 10
+              }
+            ],
+            "sizes": [
+              {
+                "id": 2,
+                "name": "S",
+                "availability": "in_stock",
+                "price": 169000,
+                "sku": 452696130
+              },
+              {
+                "id": 3,
+                "name": "M",
+                "availability": "in_stock",
+                "price": 169000,
+                "sku": 452696170
+              },
+              {
+                "id": 4,
+                "name": "L",
+                "availability": "in_stock",
+                "price": 169000,
+                "sku": 452696193
+              },
+              {
+                "id": 5,
+                "name": "XL",
+                "availability": "in_stock",
+                "price": 169000,
+                "sku": 452696195
+              }
+            ]
+          },
+          {
+            "id": "052",
+            "name": "Açık bej",
+            "hexCode": "#DDD4C2",
+            "price": 169000,
+            "description": "%14 keten ve pamuk karışımlı kumaştan üretilmiş relaxed fit pantolon. Ayarlanabilir bağcıklı lastikli bel. Ön cepli ve biyeli arka cepli.",
+            "images": [
+              {
+                "url": "https://static.zara.net/assets/public/c396/a6ba/d3da4e39a86c/cd231eb868b5/04470450052-p/04470450052-p.jpg?ts=1740396759923&w={width}",
+                "type": "image",
+                "kind": "full",
+                "order": 1
+              },
+              {
+                "url": "https://static.zara.net/assets/public/272b/c76e/55514fca818e/7d12c90b75a9/04470450052-a1/04470450052-a1.jpg?ts=1740396760013&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 2
+              },
+              {
+                "url": "https://static.zara.net/assets/public/85cc/1f6c/7ed6456d81ec/380cc741c335/04470450052-a2/04470450052-a2.jpg?ts=1740396759938&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 3
+              },
+              {
+                "url": "https://static.zara.net/assets/public/56e2/8cba/36e543ceb12f/9b4693e9daa1/04470450052-a3/04470450052-a3.jpg?ts=1740396759831&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 4
+              },
+              {
+                "url": "https://static.zara.net/assets/public/308e/6bd8/b8ac425b9f24/8d1275ece9ff/04470450052-a4/04470450052-a4.jpg?ts=1740396825271&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 5
+              },
+              {
+                "url": "https://static.zara.net/assets/public/de5c/0f1a/168046beb4df/d8e3cd502111/04470450052-e1/04470450052-e1.jpg?ts=1738676726003&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 6
+              },
+              {
+                "url": "https://static.zara.net/assets/public/803b/aa6d/d2854aa38fe9/fc9008579155/04470450052-e2/04470450052-e2.jpg?ts=1738676731441&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 7
+              },
+              {
+                "url": "https://static.zara.net/assets/public/36f2/6914/2b9741f5bd9f/7b089260f6fd/04470450052-e3/04470450052-e3.jpg?ts=1738676732605&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 8
+              },
+              {
+                "url": "https://static.zara.net/assets/public/a35b/5e37/8fd8465aa5fc/2aeac36d4412/04470450052-e4/04470450052-e4.jpg?ts=1738676732564&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 9
+              }
+            ],
+            "sizes": [
+              {
+                "id": 2,
+                "name": "S",
+                "availability": "in_stock",
+                "price": 169000,
+                "sku": 452696125
+              },
+              {
+                "id": 3,
+                "name": "M",
+                "availability": "in_stock",
+                "price": 169000,
+                "sku": 452696126
+              },
+              {
+                "id": 4,
+                "name": "L",
+                "availability": "in_stock",
+                "price": 169000,
+                "sku": 452696127
+              },
+              {
+                "id": 5,
+                "name": "XL",
+                "availability": "in_stock",
+                "price": 169000,
+                "sku": 452696128
+              }
+            ]
+          },
+          {
+            "id": "251",
+            "name": "Kirli-beyaz",
+            "hexCode": "#F6F6F6",
+            "price": 169000,
+            "description": "%14 keten ve pamuk karışımlı kumaştan üretilmiş relaxed fit pantolon. Ayarlanabilir bağcıklı lastikli bel. Ön cepli ve biyeli arka cepli.",
+            "images": [
+              {
+                "url": "https://static.zara.net/assets/public/d424/43fd/0b1240c2aa10/55cc9c5af561/01437450251-p/01437450251-p.jpg?ts=1739789666933&w={width}",
+                "type": "image",
+                "kind": "full",
+                "order": 1
+              },
+              {
+                "url": "https://static.zara.net/assets/public/c6fe/69f4/2a9148adbf97/47507f5a82b9/01437450251-a1/01437450251-a1.jpg?ts=1740391235064&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 2
+              },
+              {
+                "url": "https://static.zara.net/assets/public/1d56/8a21/c69049f8a31b/130e30e08de5/01437450251-a2/01437450251-a2.jpg?ts=1739789669421&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 3
+              },
+              {
+                "url": "https://static.zara.net/assets/public/e872/42b8/60314d91a02b/1e52b101a946/01437450251-a3/01437450251-a3.jpg?ts=1739789667887&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 4
+              },
+              {
+                "url": "https://static.zara.net/assets/public/2387/05b3/3750427a8706/8591617e6e8e/01437450251-a4/01437450251-a4.jpg?ts=1739789662867&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 5
+              },
+              {
+                "url": "https://static.zara.net/assets/public/3da0/5fed/787c43a78f5e/636c5c266234/01437450251-e1/01437450251-e1.jpg?ts=1735818569506&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 6
+              },
+              {
+                "url": "https://static.zara.net/assets/public/fc24/6114/96e841c8850b/65f6a99bc81d/01437450251-e2/01437450251-e2.jpg?ts=1735818571735&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 7
+              },
+              {
+                "url": "https://static.zara.net/assets/public/e9c8/b9dc/bf134894b3a8/e174fdaeeaa8/01437450251-e3/01437450251-e3.jpg?ts=1735818570881&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 8
+              },
+              {
+                "url": "https://static.zara.net/assets/public/3502/bb96/e4aa4094ac8a/b76a9060d2db/01437450251-e4/01437450251-e4.jpg?ts=1735818574062&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 9
+              }
+            ],
+            "sizes": [
+              {
+                "id": 2,
+                "name": "S",
+                "availability": "in_stock",
+                "price": 169000,
+                "sku": 452696134
+              },
+              {
+                "id": 3,
+                "name": "M",
+                "availability": "in_stock",
+                "price": 169000,
+                "sku": 452696135
+              },
+              {
+                "id": 4,
+                "name": "L",
+                "availability": "in_stock",
+                "price": 169000,
+                "sku": 452696136
+              },
+              {
+                "id": 5,
+                "name": "XL",
+                "availability": "in_stock",
+                "price": 169000,
+                "sku": 452696137
+              }
+            ]
+          },
+          {
+            "id": "804",
+            "name": "İnci grisi",
+            "hexCode": "#D5D4D3",
+            "price": 169000,
+            "description": "%14 keten ve pamuk karışımlı kumaştan üretilmiş relaxed fit pantolon. Ayarlanabilir bağcıklı lastikli bel. Ön cepli ve biyeli arka cepli.",
+            "images": [
+              {
+                "url": "https://static.zara.net/assets/public/57ee/a637/2ae14639b3dc/be5bfdce8392/02675450804-p/02675450804-p.jpg?ts=1750672706910&w={width}",
+                "type": "image",
+                "kind": "full",
+                "order": 1
+              },
+              {
+                "url": "https://static.zara.net/assets/public/5863/c450/b7854be4aac6/7df731b762dd/02675450804-a1/02675450804-a1.jpg?ts=1750672706887&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 2
+              },
+              {
+                "url": "https://static.zara.net/assets/public/d4dc/040c/80c0456a96ba/1db5ef3e9752/02675450804-a2/02675450804-a2.jpg?ts=1750672706915&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 3
+              },
+              {
+                "url": "https://static.zara.net/assets/public/1a4c/8dea/9ac84e68802a/7925e246b867/02675450804-a3/02675450804-a3.jpg?ts=1750672706839&w={width}",
+                "type": "image",
+                "kind": "other",
+                "order": 4
+              },
+              {
+                "url": "https://static.zara.net/assets/public/82ab/7351/882a4648b0d8/4fa3099ec743/02675450804-e1/02675450804-e1.jpg?ts=1750662556404&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 5
+              },
+              {
+                "url": "https://static.zara.net/assets/public/55ee/e595/cf9a4b5abdf3/017e69342e2d/02675450804-e2/02675450804-e2.jpg?ts=1750662555789&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 6
+              },
+              {
+                "url": "https://static.zara.net/assets/public/0e97/2eeb/cfdd4e239ba5/e49ba91b8c18/02675450804-e3/02675450804-e3.jpg?ts=1750662555962&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 7
+              },
+              {
+                "url": "https://static.zara.net/assets/public/76a4/af3a/d67941be9f68/c52fd255e918/02675450804-e4/02675450804-e4.jpg?ts=1750662555823&w={width}",
+                "type": "image",
+                "kind": "plain",
+                "order": 8
+              }
+            ],
+            "sizes": [
+              {
+                "id": 2,
+                "name": "S",
+                "availability": "in_stock",
+                "price": 169000,
+                "sku": 452696151
+              },
+              {
+                "id": 3,
+                "name": "M",
+                "availability": "in_stock",
+                "price": 169000,
+                "sku": 452696152
+              },
+              {
+                "id": 4,
+                "name": "L",
+                "availability": "out_of_stock",
+                "price": 169000,
+                "sku": 452696153
+              },
+              {
+                "id": 5,
+                "name": "XL",
+                "availability": "out_of_stock",
+                "price": 169000,
+                "sku": 452696154
+              }
+            ]
+          }
+        ],
+        "sizes": [
+          {
+            "id": 2,
+            "name": "S",
+            "availability": "in_stock",
+            "colorId": "800",
+            "colorName": "Siyah"
+          },
+          {
+            "id": 3,
+            "name": "M",
+            "availability": "in_stock",
+            "colorId": "800",
+            "colorName": "Siyah"
+          },
+          {
+            "id": 4,
+            "name": "L",
+            "availability": "in_stock",
+            "colorId": "800",
+            "colorName": "Siyah"
+          },
+          {
+            "id": 5,
+            "name": "XL",
+            "availability": "in_stock",
+            "colorId": "800",
+            "colorName": "Siyah"
+          },
+          {
+            "id": 2,
+            "name": "S",
+            "availability": "in_stock",
+            "colorId": "052",
+            "colorName": "Açık bej"
+          },
+          {
+            "id": 3,
+            "name": "M",
+            "availability": "in_stock",
+            "colorId": "052",
+            "colorName": "Açık bej"
+          },
+          {
+            "id": 4,
+            "name": "L",
+            "availability": "in_stock",
+            "colorId": "052",
+            "colorName": "Açık bej"
+          },
+          {
+            "id": 5,
+            "name": "XL",
+            "availability": "in_stock",
+            "colorId": "052",
+            "colorName": "Açık bej"
+          },
+          {
+            "id": 2,
+            "name": "S",
+            "availability": "in_stock",
+            "colorId": "251",
+            "colorName": "Kirli-beyaz"
+          },
+          {
+            "id": 3,
+            "name": "M",
+            "availability": "in_stock",
+            "colorId": "251",
+            "colorName": "Kirli-beyaz"
+          },
+          {
+            "id": 4,
+            "name": "L",
+            "availability": "in_stock",
+            "colorId": "251",
+            "colorName": "Kirli-beyaz"
+          },
+          {
+            "id": 5,
+            "name": "XL",
+            "availability": "in_stock",
+            "colorId": "251",
+            "colorName": "Kirli-beyaz"
+          },
+          {
+            "id": 2,
+            "name": "S",
+            "availability": "in_stock",
+            "colorId": "804",
+            "colorName": "İnci grisi"
+          },
+          {
+            "id": 3,
+            "name": "M",
+            "availability": "in_stock",
+            "colorId": "804",
+            "colorName": "İnci grisi"
+          },
+          {
+            "id": 4,
+            "name": "L",
+            "availability": "out_of_stock",
+            "colorId": "804",
+            "colorName": "İnci grisi"
+          },
+          {
+            "id": 5,
+            "name": "XL",
+            "availability": "out_of_stock",
+            "colorId": "804",
+            "colorName": "İnci grisi"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://static.zara.net/assets/public/f98e/2d94/ac404ae1b9d7/12f0f03fbaaa/01437450800-p/01437450800-p.jpg?ts=1739793436771&w={width}",
+            "type": "image",
+            "kind": "full",
+            "order": 1,
+            "colorId": "800",
+            "colorName": "Siyah",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.zara.net/assets/public/1ff1/7ba7/1ffc4530ab05/fe49e8fe37cf/01437450800-a1/01437450800-a1.jpg?ts=1739793435717&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 2,
+            "colorId": "800",
+            "colorName": "Siyah",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.zara.net/assets/public/c4fb/834c/e1394c0a8fb0/5a6947037224/01437450800-a2/01437450800-a2.jpg?ts=1739793436557&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 3,
+            "colorId": "800",
+            "colorName": "Siyah",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.zara.net/assets/public/b0fe/4a9e/0c3846309e95/110523b8793e/01437450800-a3/01437450800-a3.jpg?ts=1739793436702&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 4,
+            "colorId": "800",
+            "colorName": "Siyah",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.zara.net/assets/public/c9c7/abdb/d9844e278a1f/32febf789a0f/01437450800-000-a4/01437450800-000-a4.jpg?ts=1747147620357&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 5,
+            "colorId": "800",
+            "colorName": "Siyah",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.zara.net/assets/public/fde9/4375/5d0e4694a401/89846d14bef6/01437450800-a5/01437450800-a5.jpg?ts=1739793437400&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 6,
+            "colorId": "800",
+            "colorName": "Siyah",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.zara.net/assets/public/8690/6e4e/9c2844388de4/af6fed5d0a12/01437450800-e1/01437450800-e1.jpg?ts=1735818573447&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 7,
+            "colorId": "800",
+            "colorName": "Siyah",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.zara.net/assets/public/0676/7de4/76cb4869a99e/756ca75e65cf/01437450800-e2/01437450800-e2.jpg?ts=1735818572063&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 8,
+            "colorId": "800",
+            "colorName": "Siyah",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.zara.net/assets/public/2a35/a452/a8cf4021b402/271fa42dfe86/01437450800-e3/01437450800-e3.jpg?ts=1735818571630&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 9,
+            "colorId": "800",
+            "colorName": "Siyah",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.zara.net/assets/public/8059/7118/d64147a1a2dd/82441b9f8826/01437450800-e4/01437450800-e4.jpg?ts=1735818573149&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 10,
+            "colorId": "800",
+            "colorName": "Siyah",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.zara.net/assets/public/c396/a6ba/d3da4e39a86c/cd231eb868b5/04470450052-p/04470450052-p.jpg?ts=1740396759923&w={width}",
+            "type": "image",
+            "kind": "full",
+            "order": 1,
+            "colorId": "052",
+            "colorName": "Açık bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.zara.net/assets/public/272b/c76e/55514fca818e/7d12c90b75a9/04470450052-a1/04470450052-a1.jpg?ts=1740396760013&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 2,
+            "colorId": "052",
+            "colorName": "Açık bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.zara.net/assets/public/85cc/1f6c/7ed6456d81ec/380cc741c335/04470450052-a2/04470450052-a2.jpg?ts=1740396759938&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 3,
+            "colorId": "052",
+            "colorName": "Açık bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.zara.net/assets/public/56e2/8cba/36e543ceb12f/9b4693e9daa1/04470450052-a3/04470450052-a3.jpg?ts=1740396759831&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 4,
+            "colorId": "052",
+            "colorName": "Açık bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.zara.net/assets/public/308e/6bd8/b8ac425b9f24/8d1275ece9ff/04470450052-a4/04470450052-a4.jpg?ts=1740396825271&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 5,
+            "colorId": "052",
+            "colorName": "Açık bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.zara.net/assets/public/de5c/0f1a/168046beb4df/d8e3cd502111/04470450052-e1/04470450052-e1.jpg?ts=1738676726003&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 6,
+            "colorId": "052",
+            "colorName": "Açık bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.zara.net/assets/public/803b/aa6d/d2854aa38fe9/fc9008579155/04470450052-e2/04470450052-e2.jpg?ts=1738676731441&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 7,
+            "colorId": "052",
+            "colorName": "Açık bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.zara.net/assets/public/36f2/6914/2b9741f5bd9f/7b089260f6fd/04470450052-e3/04470450052-e3.jpg?ts=1738676732605&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 8,
+            "colorId": "052",
+            "colorName": "Açık bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.zara.net/assets/public/a35b/5e37/8fd8465aa5fc/2aeac36d4412/04470450052-e4/04470450052-e4.jpg?ts=1738676732564&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 9,
+            "colorId": "052",
+            "colorName": "Açık bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.zara.net/assets/public/d424/43fd/0b1240c2aa10/55cc9c5af561/01437450251-p/01437450251-p.jpg?ts=1739789666933&w={width}",
+            "type": "image",
+            "kind": "full",
+            "order": 1,
+            "colorId": "251",
+            "colorName": "Kirli-beyaz",
+            "colorIndex": 2
+          },
+          {
+            "url": "https://static.zara.net/assets/public/c6fe/69f4/2a9148adbf97/47507f5a82b9/01437450251-a1/01437450251-a1.jpg?ts=1740391235064&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 2,
+            "colorId": "251",
+            "colorName": "Kirli-beyaz",
+            "colorIndex": 2
+          },
+          {
+            "url": "https://static.zara.net/assets/public/1d56/8a21/c69049f8a31b/130e30e08de5/01437450251-a2/01437450251-a2.jpg?ts=1739789669421&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 3,
+            "colorId": "251",
+            "colorName": "Kirli-beyaz",
+            "colorIndex": 2
+          },
+          {
+            "url": "https://static.zara.net/assets/public/e872/42b8/60314d91a02b/1e52b101a946/01437450251-a3/01437450251-a3.jpg?ts=1739789667887&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 4,
+            "colorId": "251",
+            "colorName": "Kirli-beyaz",
+            "colorIndex": 2
+          },
+          {
+            "url": "https://static.zara.net/assets/public/2387/05b3/3750427a8706/8591617e6e8e/01437450251-a4/01437450251-a4.jpg?ts=1739789662867&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 5,
+            "colorId": "251",
+            "colorName": "Kirli-beyaz",
+            "colorIndex": 2
+          },
+          {
+            "url": "https://static.zara.net/assets/public/3da0/5fed/787c43a78f5e/636c5c266234/01437450251-e1/01437450251-e1.jpg?ts=1735818569506&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 6,
+            "colorId": "251",
+            "colorName": "Kirli-beyaz",
+            "colorIndex": 2
+          },
+          {
+            "url": "https://static.zara.net/assets/public/fc24/6114/96e841c8850b/65f6a99bc81d/01437450251-e2/01437450251-e2.jpg?ts=1735818571735&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 7,
+            "colorId": "251",
+            "colorName": "Kirli-beyaz",
+            "colorIndex": 2
+          },
+          {
+            "url": "https://static.zara.net/assets/public/e9c8/b9dc/bf134894b3a8/e174fdaeeaa8/01437450251-e3/01437450251-e3.jpg?ts=1735818570881&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 8,
+            "colorId": "251",
+            "colorName": "Kirli-beyaz",
+            "colorIndex": 2
+          },
+          {
+            "url": "https://static.zara.net/assets/public/3502/bb96/e4aa4094ac8a/b76a9060d2db/01437450251-e4/01437450251-e4.jpg?ts=1735818574062&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 9,
+            "colorId": "251",
+            "colorName": "Kirli-beyaz",
+            "colorIndex": 2
+          },
+          {
+            "url": "https://static.zara.net/assets/public/57ee/a637/2ae14639b3dc/be5bfdce8392/02675450804-p/02675450804-p.jpg?ts=1750672706910&w={width}",
+            "type": "image",
+            "kind": "full",
+            "order": 1,
+            "colorId": "804",
+            "colorName": "İnci grisi",
+            "colorIndex": 3
+          },
+          {
+            "url": "https://static.zara.net/assets/public/5863/c450/b7854be4aac6/7df731b762dd/02675450804-a1/02675450804-a1.jpg?ts=1750672706887&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 2,
+            "colorId": "804",
+            "colorName": "İnci grisi",
+            "colorIndex": 3
+          },
+          {
+            "url": "https://static.zara.net/assets/public/d4dc/040c/80c0456a96ba/1db5ef3e9752/02675450804-a2/02675450804-a2.jpg?ts=1750672706915&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 3,
+            "colorId": "804",
+            "colorName": "İnci grisi",
+            "colorIndex": 3
+          },
+          {
+            "url": "https://static.zara.net/assets/public/1a4c/8dea/9ac84e68802a/7925e246b867/02675450804-a3/02675450804-a3.jpg?ts=1750672706839&w={width}",
+            "type": "image",
+            "kind": "other",
+            "order": 4,
+            "colorId": "804",
+            "colorName": "İnci grisi",
+            "colorIndex": 3
+          },
+          {
+            "url": "https://static.zara.net/assets/public/82ab/7351/882a4648b0d8/4fa3099ec743/02675450804-e1/02675450804-e1.jpg?ts=1750662556404&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 5,
+            "colorId": "804",
+            "colorName": "İnci grisi",
+            "colorIndex": 3
+          },
+          {
+            "url": "https://static.zara.net/assets/public/55ee/e595/cf9a4b5abdf3/017e69342e2d/02675450804-e2/02675450804-e2.jpg?ts=1750662555789&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 6,
+            "colorId": "804",
+            "colorName": "İnci grisi",
+            "colorIndex": 3
+          },
+          {
+            "url": "https://static.zara.net/assets/public/0e97/2eeb/cfdd4e239ba5/e49ba91b8c18/02675450804-e3/02675450804-e3.jpg?ts=1750662555962&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 7,
+            "colorId": "804",
+            "colorName": "İnci grisi",
+            "colorIndex": 3
+          },
+          {
+            "url": "https://static.zara.net/assets/public/76a4/af3a/d67941be9f68/c52fd255e918/02675450804-e4/02675450804-e4.jpg?ts=1750662555823&w={width}",
+            "type": "image",
+            "kind": "plain",
+            "order": 8,
+            "colorId": "804",
+            "colorName": "İnci grisi",
+            "colorIndex": 3
+          }
+        ],
+        "stock": [
+          {
+            "id": 2,
+            "name": "S",
+            "availability": "in_stock",
+            "price": 169000,
+            "sku": 452696130,
+            "colorId": "800",
+            "colorName": "Siyah"
+          },
+          {
+            "id": 3,
+            "name": "M",
+            "availability": "in_stock",
+            "price": 169000,
+            "sku": 452696170,
+            "colorId": "800",
+            "colorName": "Siyah"
+          },
+          {
+            "id": 4,
+            "name": "L",
+            "availability": "in_stock",
+            "price": 169000,
+            "sku": 452696193,
+            "colorId": "800",
+            "colorName": "Siyah"
+          },
+          {
+            "id": 5,
+            "name": "XL",
+            "availability": "in_stock",
+            "price": 169000,
+            "sku": 452696195,
+            "colorId": "800",
+            "colorName": "Siyah"
+          },
+          {
+            "id": 2,
+            "name": "S",
+            "availability": "in_stock",
+            "price": 169000,
+            "sku": 452696125,
+            "colorId": "052",
+            "colorName": "Açık bej"
+          },
+          {
+            "id": 3,
+            "name": "M",
+            "availability": "in_stock",
+            "price": 169000,
+            "sku": 452696126,
+            "colorId": "052",
+            "colorName": "Açık bej"
+          },
+          {
+            "id": 4,
+            "name": "L",
+            "availability": "in_stock",
+            "price": 169000,
+            "sku": 452696127,
+            "colorId": "052",
+            "colorName": "Açık bej"
+          },
+          {
+            "id": 5,
+            "name": "XL",
+            "availability": "in_stock",
+            "price": 169000,
+            "sku": 452696128,
+            "colorId": "052",
+            "colorName": "Açık bej"
+          },
+          {
+            "id": 2,
+            "name": "S",
+            "availability": "in_stock",
+            "price": 169000,
+            "sku": 452696134,
+            "colorId": "251",
+            "colorName": "Kirli-beyaz"
+          },
+          {
+            "id": 3,
+            "name": "M",
+            "availability": "in_stock",
+            "price": 169000,
+            "sku": 452696135,
+            "colorId": "251",
+            "colorName": "Kirli-beyaz"
+          },
+          {
+            "id": 4,
+            "name": "L",
+            "availability": "in_stock",
+            "price": 169000,
+            "sku": 452696136,
+            "colorId": "251",
+            "colorName": "Kirli-beyaz"
+          },
+          {
+            "id": 5,
+            "name": "XL",
+            "availability": "in_stock",
+            "price": 169000,
+            "sku": 452696137,
+            "colorId": "251",
+            "colorName": "Kirli-beyaz"
+          },
+          {
+            "id": 2,
+            "name": "S",
+            "availability": "in_stock",
+            "price": 169000,
+            "sku": 452696151,
+            "colorId": "804",
+            "colorName": "İnci grisi"
+          },
+          {
+            "id": 3,
+            "name": "M",
+            "availability": "in_stock",
+            "price": 169000,
+            "sku": 452696152,
+            "colorId": "804",
+            "colorName": "İnci grisi"
+          },
+          {
+            "id": 4,
+            "name": "L",
+            "availability": "out_of_stock",
+            "price": 169000,
+            "sku": 452696153,
+            "colorId": "804",
+            "colorName": "İnci grisi"
+          },
+          {
+            "id": 5,
+            "name": "XL",
+            "availability": "out_of_stock",
+            "price": 169000,
+            "sku": 452696154,
+            "colorId": "804",
+            "colorName": "İnci grisi"
+          }
+        ]
+      }
+    },
+    {
+      "brand": "PULL&BEAR",
+      "productId": 695434698,
+      "normalizedData": {
+        "id": 695434698,
+        "name": "Kısa kollu kazak",
+        "price": 139000,
+        "description": "Kısa kollu, bisiklet yaka ve %16 keten içerikli örgü kumaştan üretilmiş kazak. Total look.",
+        "colors": [
+          {
+            "id": "605",
+            "name": "Bordo",
+            "price": 139000,
+            "images": [
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/605/7550341605_1_1_8.jpg?t=1750624292563",
+                "type": "image",
+                "kind": "main",
+                "order": 1
+              },
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/605/7550341605_1_1_8.jpg?t=1750624292563",
+                "type": "image",
+                "kind": "aux",
+                "order": 2
+              },
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/605/7550341605_2_1_8.jpg?t=1750624292563",
+                "type": "image",
+                "kind": "aux",
+                "order": 3
+              },
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/605/7550341605_3_1_8.jpg?t=1750624292563",
+                "type": "image",
+                "kind": "aux",
+                "order": 4
+              },
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/605/7550341605_4_1_8.jpg?t=1750624292563",
+                "type": "image",
+                "kind": "aux",
+                "order": 5
+              },
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/605/7550341605_6_1_8.jpg?t=1750624292563",
+                "type": "image",
+                "kind": "aux",
+                "order": 6
+              },
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/605/7550341605_8_1_8.jpg?t=1750624292563",
+                "type": "image",
+                "kind": "aux",
+                "order": 7
+              }
+            ],
+            "sizes": [
+              {
+                "id": 695434091,
+                "name": "XS",
+                "availability": "in_stock",
+                "price": 139000,
+                "sku": 695434091
+              },
+              {
+                "id": 695434087,
+                "name": "S",
+                "availability": "in_stock",
+                "price": 139000,
+                "sku": 695434087
+              },
+              {
+                "id": 695434089,
+                "name": "M",
+                "availability": "in_stock",
+                "price": 139000,
+                "sku": 695434089
+              },
+              {
+                "id": 695434086,
+                "name": "L",
+                "availability": "in_stock",
+                "price": 139000,
+                "sku": 695434086
+              }
+            ]
+          },
+          {
+            "id": "746",
+            "name": "Bej",
+            "price": 139000,
+            "images": [
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_1_1_8.jpg?t=1754324243629",
+                "type": "image",
+                "kind": "main",
+                "order": 1
+              },
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_1_1_8.jpg?t=1754324243629",
+                "type": "image",
+                "kind": "aux",
+                "order": 2
+              },
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_2_1_8.jpg?t=1754324243629",
+                "type": "image",
+                "kind": "aux",
+                "order": 3
+              },
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_3_1_8.jpg?t=1754324243629",
+                "type": "image",
+                "kind": "aux",
+                "order": 4
+              },
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_4_1_8.jpg?t=1754324243629",
+                "type": "image",
+                "kind": "aux",
+                "order": 5
+              },
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_6_1_8.jpg?t=1754324243629",
+                "type": "image",
+                "kind": "aux",
+                "order": 6
+              },
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_8_1_8.jpg?t=1754324243629",
+                "type": "image",
+                "kind": "aux",
+                "order": 7
+              },
+              {
+                "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_11_1_8.jpg?t=1754324243629",
+                "type": "image",
+                "kind": "aux",
+                "order": 8
+              }
+            ],
+            "sizes": [
+              {
+                "id": 695434085,
+                "name": "XS",
+                "availability": "in_stock",
+                "price": 139000,
+                "sku": 695434085
+              },
+              {
+                "id": 695434090,
+                "name": "S",
+                "availability": "in_stock",
+                "price": 139000,
+                "sku": 695434090
+              },
+              {
+                "id": 695434092,
+                "name": "M",
+                "availability": "in_stock",
+                "price": 139000,
+                "sku": 695434092
+              },
+              {
+                "id": 695434088,
+                "name": "L",
+                "availability": "in_stock",
+                "price": 139000,
+                "sku": 695434088
+              }
+            ]
+          }
+        ],
+        "sizes": [
+          {
+            "id": 695434091,
+            "name": "XS",
+            "availability": "in_stock",
+            "colorId": "605",
+            "colorName": "Bordo"
+          },
+          {
+            "id": 695434087,
+            "name": "S",
+            "availability": "in_stock",
+            "colorId": "605",
+            "colorName": "Bordo"
+          },
+          {
+            "id": 695434089,
+            "name": "M",
+            "availability": "in_stock",
+            "colorId": "605",
+            "colorName": "Bordo"
+          },
+          {
+            "id": 695434086,
+            "name": "L",
+            "availability": "in_stock",
+            "colorId": "605",
+            "colorName": "Bordo"
+          },
+          {
+            "id": 695434085,
+            "name": "XS",
+            "availability": "in_stock",
+            "colorId": "746",
+            "colorName": "Bej"
+          },
+          {
+            "id": 695434090,
+            "name": "S",
+            "availability": "in_stock",
+            "colorId": "746",
+            "colorName": "Bej"
+          },
+          {
+            "id": 695434092,
+            "name": "M",
+            "availability": "in_stock",
+            "colorId": "746",
+            "colorName": "Bej"
+          },
+          {
+            "id": 695434088,
+            "name": "L",
+            "availability": "in_stock",
+            "colorId": "746",
+            "colorName": "Bej"
+          }
+        ],
+        "images": [
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/605/7550341605_1_1_8.jpg?t=1750624292563",
+            "type": "image",
+            "kind": "main",
+            "order": 1,
+            "colorId": "605",
+            "colorName": "Bordo",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/605/7550341605_1_1_8.jpg?t=1750624292563",
+            "type": "image",
+            "kind": "aux",
+            "order": 2,
+            "colorId": "605",
+            "colorName": "Bordo",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/605/7550341605_2_1_8.jpg?t=1750624292563",
+            "type": "image",
+            "kind": "aux",
+            "order": 3,
+            "colorId": "605",
+            "colorName": "Bordo",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/605/7550341605_3_1_8.jpg?t=1750624292563",
+            "type": "image",
+            "kind": "aux",
+            "order": 4,
+            "colorId": "605",
+            "colorName": "Bordo",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/605/7550341605_4_1_8.jpg?t=1750624292563",
+            "type": "image",
+            "kind": "aux",
+            "order": 5,
+            "colorId": "605",
+            "colorName": "Bordo",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/605/7550341605_6_1_8.jpg?t=1750624292563",
+            "type": "image",
+            "kind": "aux",
+            "order": 6,
+            "colorId": "605",
+            "colorName": "Bordo",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/605/7550341605_8_1_8.jpg?t=1750624292563",
+            "type": "image",
+            "kind": "aux",
+            "order": 7,
+            "colorId": "605",
+            "colorName": "Bordo",
+            "colorIndex": 0
+          },
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_1_1_8.jpg?t=1754324243629",
+            "type": "image",
+            "kind": "main",
+            "order": 1,
+            "colorId": "746",
+            "colorName": "Bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_1_1_8.jpg?t=1754324243629",
+            "type": "image",
+            "kind": "aux",
+            "order": 2,
+            "colorId": "746",
+            "colorName": "Bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_2_1_8.jpg?t=1754324243629",
+            "type": "image",
+            "kind": "aux",
+            "order": 3,
+            "colorId": "746",
+            "colorName": "Bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_3_1_8.jpg?t=1754324243629",
+            "type": "image",
+            "kind": "aux",
+            "order": 4,
+            "colorId": "746",
+            "colorName": "Bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_4_1_8.jpg?t=1754324243629",
+            "type": "image",
+            "kind": "aux",
+            "order": 5,
+            "colorId": "746",
+            "colorName": "Bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_6_1_8.jpg?t=1754324243629",
+            "type": "image",
+            "kind": "aux",
+            "order": 6,
+            "colorId": "746",
+            "colorName": "Bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_8_1_8.jpg?t=1754324243629",
+            "type": "image",
+            "kind": "aux",
+            "order": 7,
+            "colorId": "746",
+            "colorName": "Bej",
+            "colorIndex": 1
+          },
+          {
+            "url": "https://static.pullandbear.net/2/photos/2025/I/0/1/p/7550/341/746/7550341746_11_1_8.jpg?t=1754324243629",
+            "type": "image",
+            "kind": "aux",
+            "order": 8,
+            "colorId": "746",
+            "colorName": "Bej",
+            "colorIndex": 1
+          }
+        ],
+        "stock": [
+          {
+            "id": 695434091,
+            "name": "XS",
+            "availability": "in_stock",
+            "price": 139000,
+            "sku": 695434091,
+            "colorId": "605",
+            "colorName": "Bordo"
+          },
+          {
+            "id": 695434087,
+            "name": "S",
+            "availability": "in_stock",
+            "price": 139000,
+            "sku": 695434087,
+            "colorId": "605",
+            "colorName": "Bordo"
+          },
+          {
+            "id": 695434089,
+            "name": "M",
+            "availability": "in_stock",
+            "price": 139000,
+            "sku": 695434089,
+            "colorId": "605",
+            "colorName": "Bordo"
+          },
+          {
+            "id": 695434086,
+            "name": "L",
+            "availability": "in_stock",
+            "price": 139000,
+            "sku": 695434086,
+            "colorId": "605",
+            "colorName": "Bordo"
+          },
+          {
+            "id": 695434085,
+            "name": "XS",
+            "availability": "in_stock",
+            "price": 139000,
+            "sku": 695434085,
+            "colorId": "746",
+            "colorName": "Bej"
+          },
+          {
+            "id": 695434090,
+            "name": "S",
+            "availability": "in_stock",
+            "price": 139000,
+            "sku": 695434090,
+            "colorId": "746",
+            "colorName": "Bej"
+          },
+          {
+            "id": 695434092,
+            "name": "M",
+            "availability": "in_stock",
+            "price": 139000,
+            "sku": 695434092,
+            "colorId": "746",
+            "colorName": "Bej"
+          },
+          {
+            "id": 695434088,
+            "name": "L",
+            "availability": "in_stock",
+            "price": 139000,
+            "sku": 695434088,
+            "colorId": "746",
+            "colorName": "Bej"
+          }
+        ]
+      }
+    }
+  ]
+}
