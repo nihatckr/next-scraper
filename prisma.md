@@ -1,0 +1,251 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+provider = "prisma-client-js"
+output = "../scraper/generated/prisma"
+}
+datasource db {
+provider = "mysql"
+url = env("DATABASE_URL")
+}
+
+// User model (Auth)
+model User {
+id Int @id @default(autoincrement())
+email String @unique
+passwordHash String
+name String?
+role String @default("user") // user, admin
+createdAt DateTime @default(now())
+updatedAt DateTime @updatedAt
+
+@@map("users")
+}
+
+// Brand model
+model Brand {
+id String @id
+name String @unique
+timestamp DateTime @default(now())
+mainCategories MainCategory[]
+products Product[]
+
+@@map("brands")
+}
+
+// Main Category model (ERKEK/KADIN)
+model MainCategory {
+id Int @id
+name String // ERKEK, KADIN
+brand Brand @relation(fields: [brandId], references: [id], onDelete: Cascade)
+brandId String
+gender String
+level Int @default(0)
+subcategories SubCategory[]
+createdAt DateTime @default(now())
+updatedAt DateTime @updatedAt
+
+@@map("main_categories")
+}
+
+// Sub Category model (recursive structure)
+model SubCategory {
+categoryId Int @id
+categoryName String
+brand String
+gender String
+level Int
+isLeaf Boolean @default(false)
+matchingId Int?
+productCount Int?  
+ // productIds Int[] // Array of product IDs
+// Use a relation table instead, see below.
+
+// Self-referential relationship for nested categories
+parentCategory MainCategory? @relation(fields: [parentCategoryId], references: [id], onDelete: Cascade)
+parentCategoryId Int?
+
+// Nested subcategories
+parentSubCategory SubCategory? @relation("SubCategoryHierarchy", fields: [parentSubCategoryId], references: [categoryId], onDelete: Cascade)
+parentSubCategoryId Int?
+subcategories SubCategory[] @relation("SubCategoryHierarchy")
+
+// Relation to products via join table
+products Product[] @relation("SubCategoryProducts")
+
+// History relation
+history CategoryHistory[]
+
+createdAt DateTime @default(now())
+updatedAt DateTime @updatedAt
+
+@@map("sub_categories")
+}
+
+model Product {
+id Int @id @default(autoincrement())
+brand Brand @relation(fields: [brandName], references: [name], onDelete: Cascade)
+brandName String
+productId String @unique
+name String
+price Int? // Price in cents/kuruş (ana fiyat)
+description String? @db.Text
+
+// Normalize yapısına uygun relations
+colors ProductColor[]
+images ProductImage[] // Tüm resimleri (renk bazlı da dahil)
+sizes ProductSize[] // Tüm bedenler (renk bazlı da dahil)
+stock ProductStock[] // Genel stok bilgileri
+
+// Relation to subcategories via join table
+subCategories SubCategory[] @relation("SubCategoryProducts")
+
+// History relations
+priceHistory PriceHistory[]
+stockHistory StockHistory[]
+
+createdAt DateTime @default(now())
+updatedAt DateTime @updatedAt
+
+@@map("products")
+}
+
+// Product Color model (normalize yapısına uygun)
+model ProductColor {
+id Int @id @default(autoincrement())
+colorId String // Original color ID from API
+name String
+hexCode String? // PULL&BEAR'da olmayabilir
+price Int? // Price in cents/kuruş (renk bazlı fiyat)
+description String? @db.Text
+
+product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+productId Int
+
+// Her rengin kendi resimleri ve bedenleri
+images ProductImage[]
+sizes ProductSize[]
+stock ProductStock[] // Stock relation eklendi
+
+// History relations
+priceHistory PriceHistory[]
+stockHistory StockHistory[]
+
+// Aynı ürün için aynı colorId tekrarlanamaz
+@@unique([productId, colorId])
+@@map("product_colors")
+}
+
+// Product Size model (normalize yapısına uygun)
+model ProductSize {
+id Int @id @default(autoincrement())
+sizeId Int // Original size ID from API
+name String // Size name (S, M, L, XL)
+availability String // "in_stock", "out_of_stock"
+price Int? // Price in cents/kuruş
+sku Int? // SKU number
+
+product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+productId Int
+
+color ProductColor? @relation(fields: [colorId], references: [id], onDelete: Cascade)
+colorId Int? // Renk ile ilişki (normalize yapıda var)
+
+colorName String? // For reference (normalize yapıda var)
+
+@@map("product_sizes")
+}
+
+// Product Image model (normalize yapısına uygun)
+model ProductImage {
+id Int @id @default(autoincrement())
+url String @db.Text
+type String // "image"
+kind String // "full", "other", "plain", "main", "aux"
+order Int @default(0)
+
+product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+productId Int
+
+color ProductColor? @relation(fields: [colorId], references: [id], onDelete: Cascade)
+colorId Int? // Renk ile ilişki (normalize yapıda var)
+
+colorName String? // For reference (normalize yapıda var)
+colorIndex Int? // Color index for sorting (normalize yapıda var)
+
+@@map("product_images")
+}
+
+// Product Stock model (normalize yapısındaki 'stock' array'ine uygun)
+model ProductStock {
+id Int @id @default(autoincrement())
+sizeId Int // Original size ID from API
+name String // Size name (S, M, L, XL)
+availability String // "in_stock", "out_of_stock"
+price Int? // Price in cents/kuruş
+sku Int? // SKU number
+
+product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+productId Int
+
+color ProductColor? @relation(fields: [colorId], references: [id], onDelete: Cascade)
+colorId Int? // Color relation (normalize yapıda var)
+colorName String? // Color name for reference (normalize yapıda var)
+
+@@map("product_stock")
+}
+
+// Data Sync Tracking
+model DataSync {
+id Int @id @default(autoincrement())
+syncType String // "categories", "products"
+status String // "success", "failed", "in_progress"
+itemsCount Int? // Number of items processed
+errorMessage String? @db.Text
+timestamp DateTime @default(now())
+
+@@map("data_syncs")
+}
+
+// Price History Tracking
+model PriceHistory {
+id Int @id @default(autoincrement())
+productId Int
+product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+price Int // Kuruş cinsinden
+colorId Int? // Hangi renk varyantı
+color ProductColor? @relation(fields: [colorId], references: [id])
+timestamp DateTime @default(now())
+
+@@index([productId, timestamp])
+@@map("price_history")
+}
+
+// Stock History Tracking
+model StockHistory {
+id Int @id @default(autoincrement())
+productId Int
+product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+sizeId Int
+colorId Int?
+color ProductColor? @relation(fields: [colorId], references: [id])
+available Boolean
+timestamp DateTime @default(now())
+
+@@index([productId, timestamp])
+@@map("stock_history")
+}
+
+// Category History Tracking
+model CategoryHistory {
+id Int @id @default(autoincrement())
+categoryId Int
+category SubCategory @relation(fields: [categoryId], references: [categoryId], onDelete: Cascade)
+action String // 'added', 'removed', 'modified'
+changes Json? // Değişiklik detayları
+timestamp DateTime @default(now())
+
+@@index([categoryId, timestamp])
+@@map("category_history")
+}
